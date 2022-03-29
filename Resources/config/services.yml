@@ -1,17 +1,17 @@
 services:
-  codelab.dto.resolver_storage:
+  esidor.dto.resolver_storage:
     public: true
     class: Esidor\DtoBundle\Resolver\DtoResolversStorage
 
   Esidor\DtoBundle\Resolver\DtoArgumentValueResolver:
     arguments:
-      $dtoResolversStorage: '@codelab.dto.resolver_storage'
+      $dtoResolversStorage: '@esidor.dto.resolver_storage'
     tags:
       - { name: controller.argument_value_resolver, priority: 50 }
 
   Esidor\DtoBundle\Resolver\DtoConstraintViolationListResolver:
     arguments:
-      $dtoResolversStorage: '@codelab.dto.resolver_storage'
+      $dtoResolversStorage: '@esidor.dto.resolver_storage'
       $validator: '@validator'
     tags:
       - { name: controller.argument_value_resolver, priority: 51 }
