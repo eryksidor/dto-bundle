@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Attributes;
+namespace Esidor\DtoBundle\Attributes;
 
 use Attribute;
 use Doctrine\Common\Annotations\Annotation\NamedArgumentConstructor;

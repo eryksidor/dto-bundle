@@ -12,14 +12,15 @@ declare(strict_types=1);
  */
 
 
-namespace CodeLab\DtoBundle\Caster;
+namespace Esidor\DtoBundle\Caster;
 
 use DateTime;
+use Exception;
 use Symfony\Component\Validator\Constraints\Date;
 
 /**
  * Class DatetimeCaster
- * @package CodeLab\DtoBundle\Caster
+ * @package Esidor\DtoBundle\Caster
  */
 class DatetimeCaster extends AbstractCaster implements CasterInterface
 {
@@ -36,7 +37,7 @@ class DatetimeCaster extends AbstractCaster implements CasterInterface
      /**
       * @param mixed $args
       * @return DateTime|null
-      * @throws \Exception
+      * @throws Exception
       */
      public function cast(mixed $args): ?DateTime
      {

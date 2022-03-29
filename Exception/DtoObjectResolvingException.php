@@ -10,14 +10,14 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Exception;
+namespace Esidor\DtoBundle\Exception;
 
 use Exception;
 use Throwable;
 
 /**
  * Class DtoObjectResolvingException
- * @package CodeLab\DtoBundle\Exception
+ * @package Esidor\DtoBundle\Exception
  */
 class DtoObjectResolvingException extends Exception
 {

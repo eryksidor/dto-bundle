@@ -11,16 +11,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Object;
+namespace Esidor\DtoBundle\Object;
 
 
-use CodeLab\DtoBundle\Reflection\DtoReflectionClass;
+use Esidor\DtoBundle\Reflection\DtoReflectionClass;
 
 /**
  * Base DTO class
  *
  * Class AbstractDto
- * @package CodeLab\DtoBundle\Object
+ * @package Esidor\DtoBundle\Object
  */
 abstract class AbstractDto
 {

@@ -12,13 +12,13 @@ declare(strict_types=1);
  */
 
 
-namespace CodeLab\DtoBundle\Caster;
+namespace Esidor\DtoBundle\Caster;
 
-use CodeLab\DtoBundle\Reflection\DtoReflectionProperty;
+use Esidor\DtoBundle\Reflection\DtoReflectionProperty;
 
 /**
  * Interface CasterInterface
- * @package CodeLab\DtoBundle\Caster
+ * @package Esidor\DtoBundle\Caster
  */
 interface CasterInterface
 {

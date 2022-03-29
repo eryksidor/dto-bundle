@@ -10,7 +10,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\DependencyInjection;
+namespace Esidor\DtoBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\Config\FileLocator;
@@ -19,7 +19,7 @@ use Symfony\Component\DependencyInjection\Loader;
 
 /**
  * Class DtoExtension
- * @package CodeLab\Dto\DependencyInjection
+ * @package Esidor\Dto\DependencyInjection
  */
 class DtoExtension extends Extension
 {

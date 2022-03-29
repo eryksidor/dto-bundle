@@ -11,9 +11,9 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Reflection;
+namespace Esidor\DtoBundle\Reflection;
 
-use CodeLab\DtoBundle\Object\AbstractDto;
+use Esidor\DtoBundle\Object\AbstractDto;
 use ReflectionClass;
 use ReflectionProperty;
 
@@ -21,7 +21,7 @@ use ReflectionProperty;
  * Helper logic for DTO class reflection
  *
  * Class DtoReflectionClass
- * @package CodeLab\DtoBundle\Reflection
+ * @package Esidor\DtoBundle\Reflection
  */
 class DtoReflectionClass
 {

@@ -1,5 +1,5 @@
 {
-  "name": "codelab/dto-bundle",
+  "name": "esidor/dto-bundle",
   "type": "symfony-bundle",
   "description": "Bundle for Data transfer objects",
   "license": "MIT",
@@ -12,7 +12,7 @@
   },
   "autoload": {
     "psr-4": {
-      "CodeLab\\DtoBundle\\": "/"
+      "Esidor\\DtoBundle\\": "/"
     },
     "exclude-from-classmap": [
       "/Tests/"
@@ -20,7 +20,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "CodeLab\\DtoBundle\\Tests\\": "/Tests"
+      "Esidor\\DtoBundle\\Tests\\": "/Tests"
     }
   }
 }

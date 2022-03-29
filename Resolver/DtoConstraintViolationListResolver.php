@@ -10,9 +10,9 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Resolver;
+namespace Esidor\DtoBundle\Resolver;
 
-use CodeLab\DtoBundle\Validator\DtoConstraintViolationList;
+use Esidor\DtoBundle\Validator\DtoConstraintViolationList;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ArgumentValueResolverInterface;
 use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
@@ -20,7 +20,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 /**
  * Class DtoConstraintViolationListResolver
- * @package CodeLab\DtoBundle\Resolver
+ * @package Esidor\DtoBundle\Resolver
  */
 class DtoConstraintViolationListResolver implements ArgumentValueResolverInterface
 {

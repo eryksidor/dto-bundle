@@ -11,14 +11,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Caster;
+namespace Esidor\DtoBundle\Caster;
 
-use CodeLab\DtoBundle\Attributes\DtoArray;
-use CodeLab\DtoBundle\Exception\DtoObjectResolvingException;
+use Esidor\DtoBundle\Attributes\DtoArray;
+use Esidor\DtoBundle\Exception\DtoObjectResolvingException;
 
 /**
  * Class DtoArrayCaster
- * @package CodeLab\DtoBundle\Caster
+ * @package Esidor\DtoBundle\Caster
  */
 class DtoArrayCaster extends AbstractCaster implements CasterInterface
 {

@@ -10,16 +10,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle;
+namespace Esidor\DtoBundle;
 
-use CodeLab\DtoBundle\DependencyInjection\DtoExtension;
+use Esidor\DtoBundle\DependencyInjection\DtoExtension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\ExtensionInterface;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 /**
  * Class DtoBundle
- * @package CodeLab\DtoBundle
+ * @package Esidor\DtoBundle
  */
 class DtoBundle extends Bundle
 {

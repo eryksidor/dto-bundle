@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Validator;
+namespace Esidor\DtoBundle\Validator;
 
 use Symfony\Component\Validator\ConstraintViolationList;
 
 /**
  * Class DtoConstraintViolationList
- * @package CodeLab\DtoBundle\Validator
+ * @package Esidor\DtoBundle\Validator
  */
 class DtoConstraintViolationList
 {
@@ -54,7 +54,7 @@ class DtoConstraintViolationList
 
           foreach ($this->constraintViolationList as $violation) {
                $path = $violation->getPropertyPath();
-               preg_match_all("/\[[^\]]*\]/", $path, $brackets);
+               preg_match_all("/\[[^]]*]/", $path, $brackets);
 
                foreach ($brackets as $oneLevelBrackets) {
                     foreach ($oneLevelBrackets as $element) {

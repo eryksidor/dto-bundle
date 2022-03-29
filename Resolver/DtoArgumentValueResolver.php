@@ -10,16 +10,16 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Resolver;
+namespace Esidor\DtoBundle\Resolver;
 
-use CodeLab\DtoBundle\Object\AbstractDto;
+use Esidor\DtoBundle\Object\AbstractDto;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Controller\ArgumentValueResolverInterface;
 use Symfony\Component\HttpKernel\ControllerMetadata\ArgumentMetadata;
 
 /**
  * Class DtoArgumentValueResolver
- * @package CodeLab\DtoBundle\Resolver
+ * @package Esidor\DtoBundle\Resolver
  */
 class DtoArgumentValueResolver implements ArgumentValueResolverInterface
 {

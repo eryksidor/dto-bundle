@@ -11,13 +11,13 @@ declare(strict_types = 1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Reflection;
+namespace Esidor\DtoBundle\Reflection;
 
-use CodeLab\DtoBundle\Caster\CasterInterface;
-use CodeLab\DtoBundle\Caster\DatetimeCaster;
-use CodeLab\DtoBundle\Caster\DtoArrayCaster;
-use CodeLab\DtoBundle\Caster\DtoCaster;
-use CodeLab\DtoBundle\Object\AbstractDto;
+use Esidor\DtoBundle\Caster\CasterInterface;
+use Esidor\DtoBundle\Caster\DatetimeCaster;
+use Esidor\DtoBundle\Caster\DtoArrayCaster;
+use Esidor\DtoBundle\Caster\DtoCaster;
+use Esidor\DtoBundle\Object\AbstractDto;
 use Error;
 use Exception;
 use Generator;
@@ -27,7 +27,7 @@ use ReflectionProperty;
 
 /**
  * Class DtoReflectionProperty
- * @package CodeLab\DtoBundle\Reflection
+ * @package Esidor\DtoBundle\Reflection
  */
 class DtoReflectionProperty
 {

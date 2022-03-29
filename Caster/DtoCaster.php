@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace CodeLab\DtoBundle\Caster;
+namespace Esidor\DtoBundle\Caster;
 
-use CodeLab\DtoBundle\Object\AbstractDto;
+use Esidor\DtoBundle\Object\AbstractDto;
 
 /**
  * Class DtoCaster
- * @package CodeLab\DtoBundle\Caster
+ * @package Esidor\DtoBundle\Caster
  */
 class DtoCaster extends AbstractCaster implements CasterInterface
 {
